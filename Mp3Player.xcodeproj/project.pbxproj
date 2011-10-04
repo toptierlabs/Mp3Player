@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB849A15143B4A940038A78F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB849A14143B4A940038A78F /* UIKit.framework */; };
+		AB849A17143B4A940038A78F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB849A16143B4A940038A78F /* Foundation.framework */; };
+		AB849A19143B4A940038A78F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB849A18143B4A940038A78F /* CoreGraphics.framework */; };
+		AB849A1F143B4A940038A78F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB849A1D143B4A940038A78F /* InfoPlist.strings */; };
+		AB849A22143B4A940038A78F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB849A21143B4A940038A78F /* main.m */; };
+		AB849A25143B4A940038A78F /* Mp3PlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB849A24143B4A940038A78F /* Mp3PlayerAppDelegate.m */; };
+		AB849A28143B4A940038A78F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB849A26143B4A940038A78F /* MainWindow.xib */; };
+		AB849A2B143B4A940038A78F /* Mp3PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB849A2A143B4A940038A78F /* Mp3PlayerViewController.m */; };
+		AB849A2E143B4A940038A78F /* Mp3PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB849A2C143B4A940038A78F /* Mp3PlayerViewController.xib */; };
+		AB849A35143B4A940038A78F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB849A14143B4A940038A78F /* UIKit.framework */; };
+		AB849A36143B4A940038A78F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB849A16143B4A940038A78F /* Foundation.framework */; };
+		AB849A37143B4A940038A78F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB849A18143B4A940038A78F /* CoreGraphics.framework */; };
+		AB849A3F143B4A940038A78F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB849A3D143B4A940038A78F /* InfoPlist.strings */; };
+		AB849A42143B4A940038A78F /* Mp3PlayerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AB849A41143B4A940038A78F /* Mp3PlayerTests.h */; };
+		AB849A44143B4A940038A78F /* Mp3PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB849A43143B4A940038A78F /* Mp3PlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB849A38143B4A940038A78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB849A07143B4A940038A78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB849A0F143B4A940038A78F;
+			remoteInfo = Mp3Player;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB849A10143B4A940038A78F /* Mp3Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mp3Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB849A14143B4A940038A78F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB849A16143B4A940038A78F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB849A18143B4A940038A78F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB849A1C143B4A940038A78F /* Mp3Player-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mp3Player-Info.plist"; sourceTree = "<group>"; };
+		AB849A1E143B4A940038A78F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB849A20143B4A940038A78F /* Mp3Player-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mp3Player-Prefix.pch"; sourceTree = "<group>"; };
+		AB849A21143B4A940038A78F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB849A23143B4A940038A78F /* Mp3PlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp3PlayerAppDelegate.h; sourceTree = "<group>"; };
+		AB849A24143B4A940038A78F /* Mp3PlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mp3PlayerAppDelegate.m; sourceTree = "<group>"; };
+		AB849A27143B4A940038A78F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AB849A29143B4A940038A78F /* Mp3PlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp3PlayerViewController.h; sourceTree = "<group>"; };
+		AB849A2A143B4A940038A78F /* Mp3PlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mp3PlayerViewController.m; sourceTree = "<group>"; };
+		AB849A2D143B4A940038A78F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Mp3PlayerViewController.xib; sourceTree = "<group>"; };
+		AB849A34143B4A940038A78F /* Mp3PlayerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mp3PlayerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB849A3C143B4A940038A78F /* Mp3PlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mp3PlayerTests-Info.plist"; sourceTree = "<group>"; };
+		AB849A3E143B4A940038A78F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB849A40143B4A940038A78F /* Mp3PlayerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mp3PlayerTests-Prefix.pch"; sourceTree = "<group>"; };
+		AB849A41143B4A940038A78F /* Mp3PlayerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp3PlayerTests.h; sourceTree = "<group>"; };
+		AB849A43143B4A940038A78F /* Mp3PlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mp3PlayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB849A0D143B4A940038A78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB849A15143B4A940038A78F /* UIKit.framework in Frameworks */,
+				AB849A17143B4A940038A78F /* Foundation.framework in Frameworks */,
+				AB849A19143B4A940038A78F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB849A30143B4A940038A78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB849A35143B4A940038A78F /* UIKit.framework in Frameworks */,
+				AB849A36143B4A940038A78F /* Foundation.framework in Frameworks */,
+				AB849A37143B4A940038A78F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB849A05143B4A940038A78F = {
+			isa = PBXGroup;
+			children = (
+				AB849A1A143B4A940038A78F /* Mp3Player */,
+				AB849A3A143B4A940038A78F /* Mp3PlayerTests */,
+				AB849A13143B4A940038A78F /* Frameworks */,
+				AB849A11143B4A940038A78F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB849A11143B4A940038A78F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB849A10143B4A940038A78F /* Mp3Player.app */,
+				AB849A34143B4A940038A78F /* Mp3PlayerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB849A13143B4A940038A78F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB849A14143B4A940038A78F /* UIKit.framework */,
+				AB849A16143B4A940038A78F /* Foundation.framework */,
+				AB849A18143B4A940038A78F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB849A1A143B4A940038A78F /* Mp3Player */ = {
+			isa = PBXGroup;
+			children = (
+				AB849A23143B4A940038A78F /* Mp3PlayerAppDelegate.h */,
+				AB849A24143B4A940038A78F /* Mp3PlayerAppDelegate.m */,
+				AB849A26143B4A940038A78F /* MainWindow.xib */,
+				AB849A29143B4A940038A78F /* Mp3PlayerViewController.h */,
+				AB849A2A143B4A940038A78F /* Mp3PlayerViewController.m */,
+				AB849A2C143B4A940038A78F /* Mp3PlayerViewController.xib */,
+				AB849A1B143B4A940038A78F /* Supporting Files */,
+			);
+			path = Mp3Player;
+			sourceTree = "<group>";
+		};
+		AB849A1B143B4A940038A78F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB849A1C143B4A940038A78F /* Mp3Player-Info.plist */,
+				AB849A1D143B4A940038A78F /* InfoPlist.strings */,
+				AB849A20143B4A940038A78F /* Mp3Player-Prefix.pch */,
+				AB849A21143B4A940038A78F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB849A3A143B4A940038A78F /* Mp3PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB849A41143B4A940038A78F /* Mp3PlayerTests.h */,
+				AB849A43143B4A940038A78F /* Mp3PlayerTests.m */,
+				AB849A3B143B4A940038A78F /* Supporting Files */,
+			);
+			path = Mp3PlayerTests;
+			sourceTree = "<group>";
+		};
+		AB849A3B143B4A940038A78F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB849A3C143B4A940038A78F /* Mp3PlayerTests-Info.plist */,
+				AB849A3D143B4A940038A78F /* InfoPlist.strings */,
+				AB849A40143B4A940038A78F /* Mp3PlayerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB849A0F143B4A940038A78F /* Mp3Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB849A47143B4A940038A78F /* Build configuration list for PBXNativeTarget "Mp3Player" */;
+			buildPhases = (
+				AB849A0C143B4A940038A78F /* Sources */,
+				AB849A0D143B4A940038A78F /* Frameworks */,
+				AB849A0E143B4A940038A78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mp3Player;
+			productName = Mp3Player;
+			productReference = AB849A10143B4A940038A78F /* Mp3Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB849A33143B4A940038A78F /* Mp3PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB849A4A143B4A940038A78F /* Build configuration list for PBXNativeTarget "Mp3PlayerTests" */;
+			buildPhases = (
+				AB849A2F143B4A940038A78F /* Sources */,
+				AB849A30143B4A940038A78F /* Frameworks */,
+				AB849A31143B4A940038A78F /* Resources */,
+				AB849A32143B4A940038A78F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB849A39143B4A940038A78F /* PBXTargetDependency */,
+			);
+			name = Mp3PlayerTests;
+			productName = Mp3PlayerTests;
+			productReference = AB849A34143B4A940038A78F /* Mp3PlayerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB849A07143B4A940038A78F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AB849A0A143B4A940038A78F /* Build configuration list for PBXProject "Mp3Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB849A05143B4A940038A78F;
+			productRefGroup = AB849A11143B4A940038A78F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB849A0F143B4A940038A78F /* Mp3Player */,
+				AB849A33143B4A940038A78F /* Mp3PlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB849A0E143B4A940038A78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB849A1F143B4A940038A78F /* InfoPlist.strings in Resources */,
+				AB849A28143B4A940038A78F /* MainWindow.xib in Resources */,
+				AB849A2E143B4A940038A78F /* Mp3PlayerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB849A31143B4A940038A78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB849A3F143B4A940038A78F /* InfoPlist.strings in Resources */,
+				AB849A42143B4A940038A78F /* Mp3PlayerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB849A32143B4A940038A78F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB849A0C143B4A940038A78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB849A22143B4A940038A78F /* main.m in Sources */,
+				AB849A25143B4A940038A78F /* Mp3PlayerAppDelegate.m in Sources */,
+				AB849A2B143B4A940038A78F /* Mp3PlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB849A2F143B4A940038A78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB849A44143B4A940038A78F /* Mp3PlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB849A39143B4A940038A78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB849A0F143B4A940038A78F /* Mp3Player */;
+			targetProxy = AB849A38143B4A940038A78F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB849A1D143B4A940038A78F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB849A1E143B4A940038A78F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB849A26143B4A940038A78F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB849A27143B4A940038A78F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AB849A2C143B4A940038A78F /* Mp3PlayerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB849A2D143B4A940038A78F /* en */,
+			);
+			name = Mp3PlayerViewController.xib;
+			sourceTree = "<group>";
+		};
+		AB849A3D143B4A940038A78F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB849A3E143B4A940038A78F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB849A45143B4A940038A78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB849A46143B4A940038A78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AB849A48143B4A940038A78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mp3Player/Mp3Player-Prefix.pch";
+				INFOPLIST_FILE = "Mp3Player/Mp3Player-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB849A49143B4A940038A78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mp3Player/Mp3Player-Prefix.pch";
+				INFOPLIST_FILE = "Mp3Player/Mp3Player-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AB849A4B143B4A940038A78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mp3Player.app/Mp3Player";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mp3PlayerTests/Mp3PlayerTests-Prefix.pch";
+				INFOPLIST_FILE = "Mp3PlayerTests/Mp3PlayerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AB849A4C143B4A940038A78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mp3Player.app/Mp3Player";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mp3PlayerTests/Mp3PlayerTests-Prefix.pch";
+				INFOPLIST_FILE = "Mp3PlayerTests/Mp3PlayerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB849A0A143B4A940038A78F /* Build configuration list for PBXProject "Mp3Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB849A45143B4A940038A78F /* Debug */,
+				AB849A46143B4A940038A78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB849A47143B4A940038A78F /* Build configuration list for PBXNativeTarget "Mp3Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB849A48143B4A940038A78F /* Debug */,
+				AB849A49143B4A940038A78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB849A4A143B4A940038A78F /* Build configuration list for PBXNativeTarget "Mp3PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB849A4B143B4A940038A78F /* Debug */,
+				AB849A4C143B4A940038A78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB849A07143B4A940038A78F /* Project object */;
+}
