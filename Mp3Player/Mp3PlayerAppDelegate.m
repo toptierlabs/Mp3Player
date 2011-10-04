@@ -9,19 +9,32 @@
 #import "Mp3PlayerAppDelegate.h"
 
 #import "Mp3PlayerViewController.h"
+#import "NavController.h"
+#import "ListOfMp3ViewController.h"
 
 @implementation Mp3PlayerAppDelegate
 
 
+@synthesize tabBarController=_tabBarController;
 @synthesize window=_window;
+@synthesize navController;
+@synthesize listOfMp3ViewController=_listOfMp3ViewController;
 
-@synthesize viewController=_viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-     
-    self.window.rootViewController = self.viewController;
+    tabBarController = [[UITabBarController alloc] init];  
+    
+    //    // Override point for customization after application launch.
+    self.listOfMp3ViewController = [[ListOfMp3ViewController alloc] init];
+    self.navController = [[[NavController alloc] initWithRootViewController:self.listOfMp3ViewController] autorelease];
+    
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:self.navController, nil];
+    self.navController.title = @"Musica";
+    
+    //    self.window.rootViewController = self.tabBarController;
+    
+    [self.window addSubview:_tabBarController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -68,7 +81,10 @@
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
+    [_listOfMp3ViewController release];
+    [_tabBarController release];
+    [navController release];
+    [super dealloc];
     [super dealloc];
 }
 

@@ -14,14 +14,22 @@
 		AB849A22143B4A940038A78F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB849A21143B4A940038A78F /* main.m */; };
 		AB849A25143B4A940038A78F /* Mp3PlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB849A24143B4A940038A78F /* Mp3PlayerAppDelegate.m */; };
 		AB849A28143B4A940038A78F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB849A26143B4A940038A78F /* MainWindow.xib */; };
-		AB849A2B143B4A940038A78F /* Mp3PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB849A2A143B4A940038A78F /* Mp3PlayerViewController.m */; };
-		AB849A2E143B4A940038A78F /* Mp3PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB849A2C143B4A940038A78F /* Mp3PlayerViewController.xib */; };
+		AB849A2E143B4A940038A78F /* Mp3PlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB849A2C143B4A940038A78F /* Mp3PlayerView.xib */; };
 		AB849A35143B4A940038A78F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB849A14143B4A940038A78F /* UIKit.framework */; };
 		AB849A36143B4A940038A78F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB849A16143B4A940038A78F /* Foundation.framework */; };
 		AB849A37143B4A940038A78F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB849A18143B4A940038A78F /* CoreGraphics.framework */; };
 		AB849A3F143B4A940038A78F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB849A3D143B4A940038A78F /* InfoPlist.strings */; };
 		AB849A42143B4A940038A78F /* Mp3PlayerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AB849A41143B4A940038A78F /* Mp3PlayerTests.h */; };
 		AB849A44143B4A940038A78F /* Mp3PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB849A43143B4A940038A78F /* Mp3PlayerTests.m */; };
+		AB849A4F143B4B840038A78F /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB849A4E143B4B840038A78F /* NavController.m */; };
+		AB849A54143B4BD60038A78F /* ListOfMp3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB849A52143B4BD60038A78F /* ListOfMp3ViewController.m */; };
+		AB849A55143B4BD60038A78F /* ListOfMp3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB849A53143B4BD60038A78F /* ListOfMp3View.xib */; };
+		AB849A58143B4DB90038A78F /* Mp3PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB849A57143B4DB90038A78F /* Mp3PlayerViewController.m */; };
+		AB849A5A143B4F100038A78F /* Mp3s.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB849A59143B4F100038A78F /* Mp3s.plist */; };
+		AB849A5C143B67E50038A78F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB849A5B143B67E50038A78F /* AVFoundation.framework */; };
+		AB849A5E143B68DA0038A78F /* blind_willie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB849A5D143B68DA0038A78F /* blind_willie.mp3 */; };
+		AB849A69143B73D90038A78F /* player_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = AB849A67143B73D90038A78F /* player_pause.png */; };
+		AB849A6A143B73D90038A78F /* player_play.png in Resources */ = {isa = PBXBuildFile; fileRef = AB849A68143B73D90038A78F /* player_play.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,15 +54,25 @@
 		AB849A23143B4A940038A78F /* Mp3PlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp3PlayerAppDelegate.h; sourceTree = "<group>"; };
 		AB849A24143B4A940038A78F /* Mp3PlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mp3PlayerAppDelegate.m; sourceTree = "<group>"; };
 		AB849A27143B4A940038A78F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		AB849A29143B4A940038A78F /* Mp3PlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp3PlayerViewController.h; sourceTree = "<group>"; };
-		AB849A2A143B4A940038A78F /* Mp3PlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mp3PlayerViewController.m; sourceTree = "<group>"; };
-		AB849A2D143B4A940038A78F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Mp3PlayerViewController.xib; sourceTree = "<group>"; };
+		AB849A2D143B4A940038A78F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Mp3PlayerView.xib; sourceTree = "<group>"; };
 		AB849A34143B4A940038A78F /* Mp3PlayerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mp3PlayerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB849A3C143B4A940038A78F /* Mp3PlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mp3PlayerTests-Info.plist"; sourceTree = "<group>"; };
 		AB849A3E143B4A940038A78F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB849A40143B4A940038A78F /* Mp3PlayerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mp3PlayerTests-Prefix.pch"; sourceTree = "<group>"; };
 		AB849A41143B4A940038A78F /* Mp3PlayerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp3PlayerTests.h; sourceTree = "<group>"; };
 		AB849A43143B4A940038A78F /* Mp3PlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mp3PlayerTests.m; sourceTree = "<group>"; };
+		AB849A4D143B4B840038A78F /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		AB849A4E143B4B840038A78F /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		AB849A51143B4BD60038A78F /* ListOfMp3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfMp3ViewController.h; sourceTree = "<group>"; };
+		AB849A52143B4BD60038A78F /* ListOfMp3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfMp3ViewController.m; sourceTree = "<group>"; };
+		AB849A53143B4BD60038A78F /* ListOfMp3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ListOfMp3View.xib; path = Mp3Player/ListOfMp3View.xib; sourceTree = "<group>"; };
+		AB849A56143B4DB90038A78F /* Mp3PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mp3PlayerViewController.h; sourceTree = "<group>"; };
+		AB849A57143B4DB90038A78F /* Mp3PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3PlayerViewController.m; sourceTree = "<group>"; };
+		AB849A59143B4F100038A78F /* Mp3s.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mp3s.plist; sourceTree = "<group>"; };
+		AB849A5B143B67E50038A78F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AB849A5D143B68DA0038A78F /* blind_willie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blind_willie.mp3; sourceTree = "<group>"; };
+		AB849A67143B73D90038A78F /* player_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player_pause.png; sourceTree = "<group>"; };
+		AB849A68143B73D90038A78F /* player_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player_play.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB849A5C143B67E50038A78F /* AVFoundation.framework in Frameworks */,
 				AB849A15143B4A940038A78F /* UIKit.framework in Frameworks */,
 				AB849A17143B4A940038A78F /* Foundation.framework in Frameworks */,
 				AB849A19143B4A940038A78F /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +103,7 @@
 		AB849A05143B4A940038A78F = {
 			isa = PBXGroup;
 			children = (
+				AB849A50143B4B8D0038A78F /* Resources */,
 				AB849A1A143B4A940038A78F /* Mp3Player */,
 				AB849A3A143B4A940038A78F /* Mp3PlayerTests */,
 				AB849A13143B4A940038A78F /* Frameworks */,
@@ -103,6 +123,7 @@
 		AB849A13143B4A940038A78F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB849A5B143B67E50038A78F /* AVFoundation.framework */,
 				AB849A14143B4A940038A78F /* UIKit.framework */,
 				AB849A16143B4A940038A78F /* Foundation.framework */,
 				AB849A18143B4A940038A78F /* CoreGraphics.framework */,
@@ -115,11 +136,13 @@
 			children = (
 				AB849A23143B4A940038A78F /* Mp3PlayerAppDelegate.h */,
 				AB849A24143B4A940038A78F /* Mp3PlayerAppDelegate.m */,
-				AB849A26143B4A940038A78F /* MainWindow.xib */,
-				AB849A29143B4A940038A78F /* Mp3PlayerViewController.h */,
-				AB849A2A143B4A940038A78F /* Mp3PlayerViewController.m */,
-				AB849A2C143B4A940038A78F /* Mp3PlayerViewController.xib */,
 				AB849A1B143B4A940038A78F /* Supporting Files */,
+				AB849A4D143B4B840038A78F /* NavController.h */,
+				AB849A4E143B4B840038A78F /* NavController.m */,
+				AB849A51143B4BD60038A78F /* ListOfMp3ViewController.h */,
+				AB849A52143B4BD60038A78F /* ListOfMp3ViewController.m */,
+				AB849A56143B4DB90038A78F /* Mp3PlayerViewController.h */,
+				AB849A57143B4DB90038A78F /* Mp3PlayerViewController.m */,
 			);
 			path = Mp3Player;
 			sourceTree = "<group>";
@@ -153,6 +176,20 @@
 				AB849A40143B4A940038A78F /* Mp3PlayerTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB849A50143B4B8D0038A78F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB849A67143B73D90038A78F /* player_pause.png */,
+				AB849A68143B73D90038A78F /* player_play.png */,
+				AB849A5D143B68DA0038A78F /* blind_willie.mp3 */,
+				AB849A2C143B4A940038A78F /* Mp3PlayerView.xib */,
+				AB849A26143B4A940038A78F /* MainWindow.xib */,
+				AB849A53143B4BD60038A78F /* ListOfMp3View.xib */,
+				AB849A59143B4F100038A78F /* Mp3s.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +261,12 @@
 			files = (
 				AB849A1F143B4A940038A78F /* InfoPlist.strings in Resources */,
 				AB849A28143B4A940038A78F /* MainWindow.xib in Resources */,
-				AB849A2E143B4A940038A78F /* Mp3PlayerViewController.xib in Resources */,
+				AB849A2E143B4A940038A78F /* Mp3PlayerView.xib in Resources */,
+				AB849A55143B4BD60038A78F /* ListOfMp3View.xib in Resources */,
+				AB849A5A143B4F100038A78F /* Mp3s.plist in Resources */,
+				AB849A5E143B68DA0038A78F /* blind_willie.mp3 in Resources */,
+				AB849A69143B73D90038A78F /* player_pause.png in Resources */,
+				AB849A6A143B73D90038A78F /* player_play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +304,9 @@
 			files = (
 				AB849A22143B4A940038A78F /* main.m in Sources */,
 				AB849A25143B4A940038A78F /* Mp3PlayerAppDelegate.m in Sources */,
-				AB849A2B143B4A940038A78F /* Mp3PlayerViewController.m in Sources */,
+				AB849A4F143B4B840038A78F /* NavController.m in Sources */,
+				AB849A54143B4BD60038A78F /* ListOfMp3ViewController.m in Sources */,
+				AB849A58143B4DB90038A78F /* Mp3PlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +343,16 @@
 				AB849A27143B4A940038A78F /* en */,
 			);
 			name = MainWindow.xib;
+			path = Mp3Player;
 			sourceTree = "<group>";
 		};
-		AB849A2C143B4A940038A78F /* Mp3PlayerViewController.xib */ = {
+		AB849A2C143B4A940038A78F /* Mp3PlayerView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AB849A2D143B4A940038A78F /* en */,
 			);
-			name = Mp3PlayerViewController.xib;
+			name = Mp3PlayerView.xib;
+			path = Mp3Player;
 			sourceTree = "<group>";
 		};
 		AB849A3D143B4A940038A78F /* InfoPlist.strings */ = {

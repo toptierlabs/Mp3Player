@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Mp3PlayerViewController : UIViewController {
-    
+#import <AVFoundation/AVFoundation.h>
+
+
+@interface Mp3PlayerViewController : UIViewController <AVAudioPlayerDelegate> {
+    NSString *path;
+    AVAudioPlayer *audioPlayer;
+    UISlider *aSlider;
+    NSTimer *sliderTimer;
+    UIButton *playPause;
 }
 
+@property (nonatomic,retain) NSString *path; 
+@property (nonatomic,retain) IBOutlet UISlider *aSlider; 
+@property (nonatomic,retain) IBOutlet UIButton *playPause; 
 @end

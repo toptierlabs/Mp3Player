@@ -8,14 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@class Mp3PlayerViewController;
+@class ListOfMp3ViewController;
+@class NavController;
 
-@interface Mp3PlayerAppDelegate : NSObject <UIApplicationDelegate> {
-
+@interface Mp3PlayerAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
+    NavController *navController;
+    UITabBarController *tabBarController;
 }
 
+@property (nonatomic, retain)  IBOutlet UITabBarController *tabBarController;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain)  NavController *navController;
+@property (nonatomic, retain)  ListOfMp3ViewController *listOfMp3ViewController;
 
-@property (nonatomic, retain) IBOutlet Mp3PlayerViewController *viewController;
+
 
 @end

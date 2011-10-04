@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesStackState
+   version = "1.0">
+   <StackStates>
+      <StackState
+         stackFrameDescription = "-[Mp3PlayerViewController playPauseButtonClicked:]:Mp3PlayerViewController.m">
+         <expressions>
+            <expression
+               value = "aSlider.value">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[Mp3PlayerViewController updateSlider]:Mp3PlayerViewController.m">
+         <expressions>
+            <expression
+               value = "audioPlayer.currentTime">
+            </expression>
+         </expressions>
+      </StackState>
+   </StackStates>
+</VariablesStackState>
